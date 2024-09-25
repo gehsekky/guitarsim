@@ -1,0 +1,173 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+tr, td {
+    border: 0px;
+    margin: 0px;
+}
+
+html, body, #mount-point {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body, #mount-point, #page-container {
+    width: 100%;
+    height: 100%;
+}
+
+#page-container {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#controls-container {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#guitar-container {
+    border: 1px solid #000;
+    overflow: auto;
+    padding: 1rem;
+    height: 50%;
+}
+
+.control-container {
+    margin-right: 5%;
+}
+
+.control-container select {
+    font-size: 1rem;
+}
+.control-container label {
+    margin-right: 4px;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.string {
+    border-bottom: 3px solid #000;
+}
+
+.cell {
+    min-height: 2.5rem;
+    min-width: 4rem;
+    border-right: 3px solid #ccc;
+    position: relative;
+}
+
+.note {
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid #000;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4EF88;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.fretnumber-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fretnumber {
+    margin-top: -15%;
+}
+
+.highlight {
+    background-color: #C2E1C2;
+}
+.string0 .cell {
+    border-right: none;
+}
+
+.col0 {
+    border-right: 3px solid #000;
+}
