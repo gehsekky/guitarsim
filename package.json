@@ -1,14 +1,14 @@
 {
-  "name": "guitarsim",
-  "version": "1.0.0",
-  "description": "yet another javascript guitar scale tool",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "gehsekky",
-  "license": "MIT",
-  "dependencies": {
-    "prettier": "^3.3.3"
-  }
+    "name": "guitarsim",
+    "version": "1.0.0",
+    "description": "yet another javascript guitar scale tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "gehsekky",
+    "license": "MIT",
+    "dependencies": {
+        "prettier": "^3.4.2"
+    }
 }
